@@ -14,4 +14,6 @@ public record Money
         Amount = amount;
         Currency = currency;
     }
+
+    public string Astring() => $"{Amount:C} {Currency}";
 }
